@@ -1,0 +1,24 @@
+.wallet_input_
+{
+    width: 40%;
+}
+
+input {
+    outline:none;
+   }
+input[type=text]:focus
+   {
+    outline: solid 2px #eaa20a !important;
+    border:none !important;
+   }
+.reportInfo {
+    border: solid 1px #eaa20a;
+    background: #f8ba00;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.reportInfo a {
+    color: #000;
+}
