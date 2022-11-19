@@ -3,7 +3,7 @@ Contributors: JustMoney Pay
 Donate link: 
 Tags: JustMoney-Pay, donation-button,justmoney,crypto-button
 Requires at least: 5.6
-Tested up to: 6.0.1
+Tested up to: 6.1.1
 Requires PHP: 5.2.4
 Stable tag: 1.0
 Date: 01/10/2022

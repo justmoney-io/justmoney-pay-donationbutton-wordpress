@@ -19,27 +19,27 @@
 
 <div class="container" style="margin-top: 30px;">
 
-<img src="<?= WDS_PLUGIN_URI  . 'assets/images/banner.jpg'; ?>" > 
+<img src="<?php echo WDS_PLUGIN_URI  . 'assets/images/banner.jpg'; ?>" >
 <form action="" method="post">
         <p>
         <label for="wallet_evm"><strong>EVM WALLET ADDRESS: </strong></label>
         </p>
-        <input type="text" id="wallet_evm" name="wallet_evm" class="wallet_input_" value="<?= (!empty($wallet_evm)) ? esc_attr($wallet_evm) : ''; ?>"> 
+        <input type="text" id="wallet_evm" name="wallet_evm" class="wallet_input_" value="<?php echo (!empty($wallet_evm)) ?  esc_attr($wallet_evm) : ''; ?>">
     
         <p>
         <label for="wallet_tron"><strong>TRON WALLET ADDRESS: </strong></label>
         </p>
-        <input type="text" id="wallet_tron" name="wallet_tron" class="wallet_input_" value="<?= (!empty($wallet_tron)) ? esc_attr($wallet_tron) : ''; ?>">
+        <input type="text" id="wallet_tron" name="wallet_tron" class="wallet_input_" value="<?php echo (!empty($wallet_tron)) ? esc_attr($wallet_tron) : ''; ?>">
         
         <p>
         <label for="btn_color"><strong>BUTTON COLOR: </strong></label>
         </p> 
-        <input type="color" id="btn_color" name="btn_color" value="<?= (!empty($btn_color)) ? esc_attr($btn_color) : esc_attr("#7ad43c"); ?>">
+        <input type="color" id="btn_color" name="btn_color" value="<?php echo (!empty($btn_color)) ? esc_attr($btn_color) : esc_attr("#7ad43c"); ?>">
        
     <p>
         <label for="txt_color"><strong>TEXT COLOR: </strong></label>
     </p> 
-        <input type="color" id="txt_color" name="txt_color" value="<?= (!empty($txt_color)) ? esc_attr($txt_color) : esc_attr("#ffffff"); ?>">
+        <input type="color" id="txt_color" name="txt_color" value="<?php echo (!empty($txt_color)) ? esc_attr($txt_color) : esc_attr("#ffffff"); ?>">
         <p><input type="submit" value="Update" class="button"></p> 
 
 </form>
